@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HW 18.1</title>
+</head>
+<body>
+    <h1>Homework: 18.1</h1>
+    <p>
+    <pre>
+    <h2>Таймер відліку</h2>
+    Реалізувати таймер відліку:
+
+    1. Початок таймера визначати із змінної
+    2. Відобразити на сторінці час у форматі 01:25
+    3. Коли закінчився таймер зупинити його
+    </pre>
+    </p>
+    <hr>
+    <div>
+        <form class="form-for-timer">
+            Встановити таймер на
+            <input type="number" name="timer_min" min="0" max="59" placeholder="00" required class="input-min"> хв :
+            <input type="number" name="timer_sec" min="0" max="59" placeholder="00" required class="input-sec"> сек
+            <br>
+            <h2>
+                Таймер відліку: 
+            </h2>
+            <div>
+                <p class="place-for-timer"></p>
+            </div>
+            <button type="submit">старт</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
